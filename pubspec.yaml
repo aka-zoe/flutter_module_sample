@@ -1,0 +1,56 @@
+name: module_sample
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+    sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  module_auth:
+      path: ././module_auth
+  module_chat:
+      path: ././module_chat
+  module_common_ui:
+      path: ././module_common_ui
+  module_community:
+      path: ././module_community
+  module_friend:
+      path: ././module_friend
+  module_global_cache:
+      path: ././module_global_cache
+  module_http:
+      path: ././module_http
+  module_live:
+      path: ././module_live
+  module_log:
+      path: ././module_log
+  module_pay:
+      path: ././module_pay
+  module_repository:
+      path: ././module_repository
+  module_res:
+      path: ././module_res
+  module_route:
+      path: ././module_route
+  module_sdk:
+      path: ././module_sdk
+  module_settings:
+      path: ././module_settings
+  module_utils:
+      path: ././module_utils
+  module_video:
+      path: ././module_video
+flutter:
+
+  uses-material-design: true
