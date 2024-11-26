@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:module_live/route/route_path.dart';
+import 'package:module_route/route/route_path.dart';
 
 ///路由相关操作辅助类
 ///跳转、动态跳转、清栈跳转、关闭页面、全局context
